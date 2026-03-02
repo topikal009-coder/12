@@ -6,7 +6,7 @@ import webbrowser
 import subprocess
 from telegram import Bot
 
-TOKEN = os.getenv("BOT_TOKEN")      # тот же токен
+TOKEN = os.getenv("8742372301:AAEMNeh8TjCNqEePNw9sVuwbEAI_KxVc800")      # тот же токен
 CHAT_ID = os.getenv("MY_CHAT_ID")   # твой Telegram chat_id
 
 bot = Bot(TOKEN)
@@ -39,4 +39,5 @@ def main():
         time.sleep(2)
 
 if __name__ == "__main__":
+
     main()
