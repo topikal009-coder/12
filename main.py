@@ -4,7 +4,7 @@ import os
 
 TOKEN = os.getenv("BOT_TOKEN")
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def startt(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton("📷 Фото", callback_data="photo")],
         [InlineKeyboardButton("🌐 Открыть сайт", callback_data="open_site")],
@@ -27,3 +27,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
